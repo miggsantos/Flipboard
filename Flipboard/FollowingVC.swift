@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  Flipboard
 //
 //  Created by Miguel Santos on 09/10/2016.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class FollowingVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
