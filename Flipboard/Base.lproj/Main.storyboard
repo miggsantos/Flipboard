@@ -15,7 +15,7 @@
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
@@ -42,7 +42,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1146" y="-1376"/>
+            <point key="canvasLocation" x="-1828" y="-1370"/>
         </scene>
         <!--Item-->
         <scene sceneID="NdH-Os-bBr">
@@ -53,7 +53,7 @@
                         <viewControllerLayoutGuide type="bottom" id="BOp-P9-1LE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="MWP-Mq-5Ty">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -61,7 +61,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1i9-7E-gWH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1148" y="-33"/>
+            <point key="canvasLocation" x="-3543" y="242"/>
         </scene>
         <!--Item-->
         <scene sceneID="OoC-XM-fri">
@@ -72,7 +72,7 @@
                         <viewControllerLayoutGuide type="bottom" id="2nF-BG-AbD"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Sd8-H4-aNS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -80,9 +80,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mXW-Kf-Jg6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1149" y="629"/>
+            <point key="canvasLocation" x="-2724" y="242"/>
         </scene>
-        <!--ProfileVC-->
+        <!--Item-->
         <scene sceneID="Lxf-BF-fQy">
             <objects>
                 <viewController id="pBP-pu-pLh" customClass="ProfileVC" customModule="Flipboard" customModuleProvider="target" sceneMemberID="viewController">
@@ -91,14 +91,15 @@
                         <viewControllerLayoutGuide type="bottom" id="JTv-wV-UIb"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bo9-Xp-Vvq">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="rLw-45-5xp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7XI-uA-g3r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1149" y="1301"/>
+            <point key="canvasLocation" x="-1884" y="242"/>
         </scene>
         <!--Second-->
         <scene sceneID="wg7-f3-ORb">
@@ -109,7 +110,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
@@ -136,7 +137,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1146" y="-700"/>
+            <point key="canvasLocation" x="-1828" y="-671"/>
         </scene>
         <!--Custom Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -151,21 +152,18 @@
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="akL-6J-DYa" kind="relationship" relationship="viewControllers" id="jio-72-s7m"/>
-                        <segue destination="akL-6J-DYa" kind="relationship" relationship="viewControllers" id="Pb7-DL-an6"/>
-                        <segue destination="pUI-uW-BpG" kind="relationship" relationship="viewControllers" id="VQL-9T-hIC"/>
+                        <segue destination="akL-6J-DYa" kind="relationship" relationship="viewControllers" id="9cz-X8-Ap4"/>
+                        <segue destination="pUI-uW-BpG" kind="relationship" relationship="viewControllers" id="Oex-Na-ha4"/>
+                        <segue destination="pBP-pu-pLh" kind="relationship" relationship="viewControllers" id="mE2-i8-TyQ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2723" y="-401"/>
+            <point key="canvasLocation" x="-2913" y="-700"/>
         </scene>
     </scenes>
     <resources>
         <image name="second" width="30" height="30"/>
         <image name="tab_home" width="25" height="25"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="jio-72-s7m"/>
-    </inferredMetricsTieBreakers>
 </document>
