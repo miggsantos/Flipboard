@@ -8,29 +8,37 @@
 
 import UIKit
 
-class CustomTabBarController: UITabBarController {
 
+class CustomTabBarController: UITabBarController, CustomTabBarDataSource, CustomTabBarDelegate, UITabBarControllerDelegate {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
-        costumize()
-    }
-
-    func costumize() {
+        self.tabBar.isHidden = true
+        self.selectedIndex = 0
+        self.delegate = self
         
+        let customTabBar = CustomTabBar(frame: self.tabBar.frame)
+        customTabBar.datasource = self
+        customTabBar.delegate = self
+        customTabBar.setup()
         
+        self.view.addSubview(customTabBar)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    // MARK: - CustomTabBarDataSource
+    
+    func tabBarItemsInCustomTabBar(_ tabBarView: CustomTabBar) -> [UITabBarItem] {
+        return tabBar.items!
     }
-    */
-
+    
+    // MARK: - CustomTabBarDelegate
+    
+    func didSelectViewController(_ tabBarView: CustomTabBar, atIndex index: Int) {
+        self.selectedIndex = index
+    }
+    
+    
 }
+

@@ -17,6 +17,8 @@
 		93C7A7351DAAB57B004AF35C /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7A7341DAAB57B004AF35C /* NotificationVC.swift */; };
 		93C7A7371DAAB592004AF35C /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7A7361DAAB592004AF35C /* ProfileVC.swift */; };
 		93C7A7391DAAEEBE004AF35C /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7A7381DAAEEBE004AF35C /* CustomTabBarController.swift */; };
+		93C7A73E1DAB0E23004AF35C /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7A73B1DAB0E23004AF35C /* CustomTabBar.swift */; };
+		93C7A73F1DAB0E23004AF35C /* CustomTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7A73C1DAB0E23004AF35C /* CustomTabBarItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		93C7A7341DAAB57B004AF35C /* NotificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
 		93C7A7361DAAB592004AF35C /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		93C7A7381DAAEEBE004AF35C /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		93C7A73B1DAB0E23004AF35C /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		93C7A73C1DAB0E23004AF35C /* CustomTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 		93C7A7301DAAB4BD004AF35C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				93C7A73B1DAB0E23004AF35C /* CustomTabBar.swift */,
+				93C7A73C1DAB0E23004AF35C /* CustomTabBarItem.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -179,6 +185,8 @@
 				93C7A7391DAAEEBE004AF35C /* CustomTabBarController.swift in Sources */,
 				93C7A7331DAAB544004AF35C /* SearchVC.swift in Sources */,
 				93C7A7351DAAB57B004AF35C /* NotificationVC.swift in Sources */,
+				93C7A73E1DAB0E23004AF35C /* CustomTabBar.swift in Sources */,
+				93C7A73F1DAB0E23004AF35C /* CustomTabBarItem.swift in Sources */,
 				93C7A7201DAAB0D2004AF35C /* FollowingVC.swift in Sources */,
 				93C7A71C1DAAB0D2004AF35C /* AppDelegate.swift in Sources */,
 				93C7A71E1DAAB0D2004AF35C /* HomeVC.swift in Sources */,
@@ -341,6 +349,7 @@
 				93C7A72E1DAAB0D2004AF35C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
