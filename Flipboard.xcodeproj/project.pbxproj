@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9399F0241DF3ADCF00348CEF /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9399F0231DF3ADCF00348CEF /* SignUpVC.swift */; };
+		9399F0261DF3B4DC00348CEF /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9399F0251DF3B4DC00348CEF /* SignInVC.swift */; };
 		93C7A71C1DAAB0D2004AF35C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7A71B1DAAB0D2004AF35C /* AppDelegate.swift */; };
 		93C7A71E1DAAB0D2004AF35C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7A71D1DAAB0D2004AF35C /* HomeVC.swift */; };
 		93C7A7201DAAB0D2004AF35C /* FollowingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7A71F1DAAB0D2004AF35C /* FollowingVC.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9399F0231DF3ADCF00348CEF /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		9399F0251DF3B4DC00348CEF /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		93C7A7181DAAB0D2004AF35C /* Flipboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flipboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C7A71B1DAAB0D2004AF35C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93C7A71D1DAAB0D2004AF35C /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -89,6 +93,8 @@
 				93C7A7341DAAB57B004AF35C /* NotificationVC.swift */,
 				93C7A7361DAAB592004AF35C /* ProfileVC.swift */,
 				93C7A7381DAAEEBE004AF35C /* CustomTabBarController.swift */,
+				9399F0231DF3ADCF00348CEF /* SignUpVC.swift */,
+				9399F0251DF3B4DC00348CEF /* SignInVC.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -182,11 +188,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				93C7A7371DAAB592004AF35C /* ProfileVC.swift in Sources */,
+				9399F0241DF3ADCF00348CEF /* SignUpVC.swift in Sources */,
 				93C7A7391DAAEEBE004AF35C /* CustomTabBarController.swift in Sources */,
 				93C7A7331DAAB544004AF35C /* SearchVC.swift in Sources */,
 				93C7A7351DAAB57B004AF35C /* NotificationVC.swift in Sources */,
 				93C7A73E1DAB0E23004AF35C /* CustomTabBar.swift in Sources */,
 				93C7A73F1DAB0E23004AF35C /* CustomTabBarItem.swift in Sources */,
+				9399F0261DF3B4DC00348CEF /* SignInVC.swift in Sources */,
 				93C7A7201DAAB0D2004AF35C /* FollowingVC.swift in Sources */,
 				93C7A71C1DAAB0D2004AF35C /* AppDelegate.swift in Sources */,
 				93C7A71E1DAAB0D2004AF35C /* HomeVC.swift in Sources */,
